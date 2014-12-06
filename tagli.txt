@@ -1,0 +1,45 @@
+In this part we will deal with two electrons in a quantum dot with a frequency of $\hbar \omega = 1$, that means we have exact closed form expressions for the ground state energy. If we consider only the oscillator part of the Hamiltonian, that is:
+
+\begin{equation}
+\hat{H_0} = \sum_{i=1}^{N} \left( - \dfrac{1}{2} \nabla_i^2 + \dfrac{1}{2} \omega^2 r_i^2 \right)
+\end{equation}
+
+we should get an energy of 2 a.u for the lowest state. This is due to the fact that the lowest state means we have $n_x = n_y = 0$ and the energy is $E = (n_x + n_y + 1)\omega$. If we add the electron-electron repulsion, that is:
+
+\begin{equation}
+\hat{H}=\sum_{i=1}^N -\frac{1}{2} \nabla^2_i+ \frac{1}{2} \omega r_i^2 + \sum_{i<j} \frac{1}{|r_i-r_j|} 
+\end{equation}
+
+we should instead get 3 a.u.
+\\\\
+So, let's perform both the calculations to see if our results are in accord with the theory.
+
+
+\\
+Since the electrons are fermions and since the ground state is symmetric in respect to the spatial coordinates, it follows that the total spin S for this state is 0.
+
+
+
+
+
+\begin{equation}
+r_{new}=r_{old}+ \chi + D F (r_{old}) \delta t
+\end{equation}
+
+Where $\chi$ is a Gaussian random number with variance set at $2D \delta t$ and null mean.
+
+\begin{equation}
+\omega (r_{old}, r_{new})=e^{-\frac{(r_{new}-r_{old}-D \delta t F (r_{old}))^2}{4D \delta t}}
+\end{equation}
+
+\begin{equation}
+\frac{\partial f}{\partial t}=\sum_i D \frac{\partial }{\partial x_i}\left(\frac{\partial}{\partial x_i}-F_i (F) \right)f
+\end{equation}
+
+\begin{equation}
+F=\frac{1}{f} \nabla f
+\end{equation}
+
+\begin{equation}
+F=2 \frac{1}{\psi} \nabla \psi
+\end{equation}
